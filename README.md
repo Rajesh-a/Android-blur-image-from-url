@@ -19,7 +19,8 @@ Android blur image from url
   }
 ```` 
 
-//---Note--- Add Thread policy in class before adding code for converting url to bitmap-----------//
+### Note:
+//-----------Add Thread policy in class before adding code for converting url to bitmap-----------//
 ```` 
 StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 StrictMode.setThreadPolicy(policy);
